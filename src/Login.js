@@ -9,7 +9,8 @@ function Login() {
     const [password, setPassword] = useState('');
 
     const signIn = e => {
-        e.preventDefault();
+      e.preventDefault(); // prevents page from refreshing when submit is clicked (default behavior) 
+      //(e is the event) (preventDefault() is a method)  
 
         auth
             .signInWithEmailAndPassword(email, password)

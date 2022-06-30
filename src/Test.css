@@ -1,0 +1,17 @@
+label {
+  display: block;
+  font: 1rem 'Fira Sans', sans-serif;
+  margin: 0 0 0.5rem 0;
+}
+
+input {
+  display: block;
+  font: 1rem 'Fira Sans', sans-serif;
+  margin-bottom: 1rem;
+}
+test__input{
+  display: block;
+  font: 1rem 'Fira Sans', sans-serif;
+  margin-bottom: 1rem;
+}
+ 
